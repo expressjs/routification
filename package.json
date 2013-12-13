@@ -1,0 +1,36 @@
+{
+  "name": "routification",
+  "description": "Turn a connect app into a router",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expressjs/routification.git"
+  },
+  "bugs": {
+    "mail": "me@jongleberry.com",
+    "url": "https://github.com/expressjs/routification/issues"
+  },
+  "dependencies": {
+    "path-to-regexp": "*",
+    "methods": "*"
+  },
+  "peerDependencies": {
+    "connect": "*"
+  },
+  "devDependencies": {
+    "connect": "*",
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  },
+  "scripts": {
+    "test": "make test;"
+  }
+}
