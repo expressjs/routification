@@ -32,7 +32,7 @@ var app = routify(connect(), {
 })
 ```
 
-### app.[VERB](path || regexp, middleware...)
+### app\[VERB](path || regexp, middleware...)
 
 Verb can be any HTTP method supported by node.
 `delete` is also aliased as `del`.
@@ -43,7 +43,7 @@ it will also match any `GET` routes as well.
 To match `HEAD` and not `GET`,
 do `app.head()` before any `app.get()`.
 
-### app.[all](path || regexp, middleware...)
+### app.all(path || regexp, middleware...)
 
 Will match any request with the given path or regexp.
 
