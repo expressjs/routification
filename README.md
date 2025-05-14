@@ -1,3 +1,10 @@
+> [!CAUTION]
+> **This repository is archived and no longer actively maintained.**
+>
+> We are no longer accepting issues, feature requests, or pull requests.
+> For additional support or questions, please visit the [Express.js Discussions page](https://github.com/expressjs/express/discussions).
+
+
 # Routification [![Build Status](https://travis-ci.org/expressjs/routification.png)](https://travis-ci.org/expressjs/routification)
 
 Turn any connect app into an Express-like router.
